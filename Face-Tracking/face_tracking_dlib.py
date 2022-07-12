@@ -33,7 +33,7 @@ frame_height = int(capture.get(4))
 size = (frame_width, frame_height)
 
 fourcc = cv2.VideoWriter_fourcc(*"MP4V")
-out = cv2.VideoWriter('output.mp4',fourcc, 25, size)
+#out = cv2.VideoWriter('output.mp4',fourcc, 25, size)
 
 #frontal face detector
 detector = dlib.get_frontal_face_detector()
